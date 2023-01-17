@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fraunces', serif;
+
+}
+
+.card{
+    width: 500px;
+    height: 320px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+
+.left{
+    width: 50%;
+    background-image: url(mug.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-left: 13px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8px;
+    font-size: 12px;
+    color: rgb(184, 184, 184);
+}
+
+.subtag{
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.para{
+    margin-bottom: 20px;
+}
+
+#dprice{
+    font-size: 30px;
+    margin-right: 10px;
+    color: rgb(11, 81, 11);
+}
+
+#price{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(192, 192, 192);
+}
+
+.button{
+    background-color: rgb(11, 81, 11);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    padding-inline: 70px;
+    padding-block: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#cart{
+    margin-right: 10px;
+}
